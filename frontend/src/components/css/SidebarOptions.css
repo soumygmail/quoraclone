@@ -1,0 +1,27 @@
+.sidebarOptions{
+    display:flex;
+    flex-direction: column;
+     width: 200px; 
+    
+}
+.sidebarOption{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.sidebarOption:hover{
+    background: rgb(211, 211, 211);
+    border-radius:  5px;
+}
+
+.sidebarOption > img {
+    height: 30px;
+    border-radius:  5px;
+    margin-left: 20px;
+}
+
+.sidebarOption {
+
+}

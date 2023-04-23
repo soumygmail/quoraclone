@@ -1,0 +1,92 @@
+.qHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+     
+    background-color: #fff;
+    position: sticky;
+    z-index: 1000;
+    top: 0;
+    box-shadow: 2px 3px 6px rgba(187, 187, 187, 0.5);
+    justify-content: center;
+    padding: 3px;
+}
+.qHeader-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.qHeader-logo > img {
+    height: 30px !important;
+    object-fit: contain;
+    margin-left: 0;
+  
+    
+}
+
+.qHeader-logo img{
+    margin-right:30px
+
+    
+}
+
+.qheader__icons{
+    display: flex;
+}
+
+.qheader__icon{
+    padding:  30px;
+    cursor: pointer;
+}
+
+.qheader__icon:hover {
+    background-color: #eee;
+    border-radius:  5px;
+}
+
+.qHeader__input{
+display: flex;
+align-items: center;
+
+border: 1px solid lightgray;
+padding: 5px;
+border-radius: 5px;
+margin-left: 5px;
+}
+
+
+.qHeader__input > input {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: rgb(49, 49, 49);
+}
+
+q.Header__input > .MuiSvgIcon-root {
+    color: gray;
+}
+
+.qHeader__avatar {
+    cursor: pointer;
+}
+
+.qHeader__Rem{
+    display: flex;
+}
+
+/*  */
+.quoraBox__info img{
+
+    width: 30px;
+   
+}
+
+.modal__title{
+    width: 800px;
+    height: 200px;
+}
+
+
+
